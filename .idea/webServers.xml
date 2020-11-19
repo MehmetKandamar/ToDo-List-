@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="106c9b6b-2f06-42eb-8d4a-428d7428e40b" name="localhost" url="http://localhost/todo">
+        <fileTransfer mountedRoot="C:\xampp\htdocs\todo" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
