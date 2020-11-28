@@ -13,10 +13,10 @@ form {
     margin: 10px auto;
     border-radius: 20px;
     padding: 10px;
-    background: #bb69ec;
+    background: #c0a5d0;
 }
 form p {
-    color: red;
+    color: #0c0a0a;
     margin: 0;
 }
 .task_input {
@@ -24,11 +24,40 @@ form p {
     height: 15px;
     padding: 10px;
 }
+form, .content{
+    width: 20%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #1aa3d0;
+    background: white;
+    border-radius:10px 10px 10px 10px;
+}
+.input-group label{
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+.header{
+    width: 40%;
+    margin: 50px auto 0;
+    color: #f7f7f7;
+    background: #7cfbe9;
+    text-align: center;
+    border: 1px solid #0892bf;
+    border-bottom: none;
+    border-radius: 20px;
+}
 .add_btn {
     height: 39px;
     background: white;
     color: 	deepskyblue;
     padding: 5px 20px;
+}
+.input_form{
+    width: 80%;
+    height: 30px;
+    background: #c0a5d0;
+
 }
 
 table {
@@ -63,9 +92,4 @@ tr:hover {
 
 .delete{
     text-align: center;
-}
-.delete a{
-    color: #7e4949;
-    padding: 1px 6px;
-    text-decoration: none;
 }
